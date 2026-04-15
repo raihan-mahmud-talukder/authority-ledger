@@ -9,9 +9,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F7F9FB;
+  font-family: Inter;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+footer h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+footer span, footer a {
+  font-size: 0.875rem;
+  color: #64748B;
 }
