@@ -22,7 +22,7 @@ export const Contact = () => {
             <form className="
                 rounded-lg bg-white flex flex-col gap-8 md:w-[560px]
                 p-5 md:px-10 md:pt-10 md:pb-14
-                border border-[#C5C6CD1A] shadow-[0px_1px_2px0px#0000000D]
+                border border-[#C5C6CD1A] shadow-[0px_1px_2px0px#0000000D] 
             ">
                 <div>
                     <p className="
