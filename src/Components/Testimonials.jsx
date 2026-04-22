@@ -1,8 +1,8 @@
 import { testimonials } from '../data/testimonial'
 export const Testimonials = () => {
     return (
-        <section className="py-32 px-8 max-w-[1280px] m-auto bg-[#F2F4F6]">
-            <div className="flex items-center gap-4">
+        <section className="py-16 md:py-32 px-8 bg-[#F2F4F6] flex flex-col gap-16">
+            <div className="flex items-center gap-4 ">
                 <div className="w-12 h-[1px] bg-[#2180FF]" />
                 <h3 className="font-extrabold text-xl md:text-3xl text-[#191C1E] tracking-tighter">Trusted by Industry Leaders</h3>
             </div>

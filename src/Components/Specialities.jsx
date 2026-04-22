@@ -2,7 +2,7 @@ import { SpecialData, speciality } from "../data/speciality"
 
 export const Specialities = () => {
     return (
-        <section className="py-32 px-8 flex flex-col gap-20">
+        <section className="py-16 md:py-32 px-8 flex flex-col gap-20">
             <div className="flex flex-col gap-6">
                 <h2 className="font-extrabold text-3xl md:text-5xl md:tracking-[-2.4px]">Our Core Specialities</h2>
                 <p className="max-w-2xl text-[#44474D] text-lg">Integrated marketing solutions designed for the modern enterprise, backed by performance metrics.</p>
