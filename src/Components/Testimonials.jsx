@@ -20,11 +20,11 @@ const Testimonial = ( {testimonial}) => {
         <article className='rounded-lg p-4 md:p-12 bg-white shadow-[0px_1px_2px0px#0000000D]
             flex flex-col gap-8'>
             <div className='flex items-center gap-1'>
-                <img src={testimonial.rating} />
-                <img src={testimonial.rating} />
-                <img src={testimonial.rating} />
-                <img src={testimonial.rating} />
-                <img src={testimonial.rating} />
+                <img src={testimonial.rating} alt='star' />
+                <img src={testimonial.rating} alt='star' />
+                <img src={testimonial.rating} alt='star' />
+                <img src={testimonial.rating} alt='star' />
+                <img src={testimonial.rating} alt='star' />
             </div>
             <p className='font-medium text-lg md:text-2xl text-[#191C1E] h-32'>{ testimonial.quotes}</p>
             <div className='flex gap-4 items-center pt-2'>

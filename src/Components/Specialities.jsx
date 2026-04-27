@@ -1,4 +1,4 @@
-import { SpecialData, speciality } from "../data/speciality"
+import { speciality } from "../data/speciality"
 
 export const Specialities = () => {
     return (
