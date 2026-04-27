@@ -16,8 +16,10 @@ export const Hero = () => {
                 </div>
             </div>
             <div className="relative">
-                <img src="images/hero.png" alt="hero" />
-                <img className="absolute -top-5 right-0" src="images/graph.png" alt="graph" />
+                <img src="https://douqbxfmnweaqtofllcq.supabase.co/storage/v1/object/public/Images/hero.png" alt="hero" />
+                <img
+                    className="absolute -top-5 right-0"
+                    src="https://douqbxfmnweaqtofllcq.supabase.co/storage/v1/object/public/Images/graph.png" alt="graph" />
             </div>
         </section>
     )

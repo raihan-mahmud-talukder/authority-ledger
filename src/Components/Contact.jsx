@@ -11,11 +11,11 @@ export const Contact = () => {
                     text-lg text-[#44474D]
                 ">Schedule a discovery call with our architectural lead to audit your current performance and map your growth path.</p>
                 <div className="flex gap-6 items-center">
-                    <img src="images/email.png" alt="email" />
+                    <img src="https://douqbxfmnweaqtofllcq.supabase.co/storage/v1/object/public/Images/email.png" alt="email" />
                     <span className="font-semibold">hello@authorityledger.com</span>
                 </div>
                 <div className="flex gap-6 items-center">
-                    <img src="images/address.png" alt="address" />
+                    <img src="https://douqbxfmnweaqtofllcq.supabase.co/storage/v1/object/public/Images/address.png" alt="address" />
                     <span className="font-semibold">Financial District, New York</span>
                 </div>
             </aside>
@@ -60,7 +60,7 @@ export const Contact = () => {
                 <button className="
                     font-bold text-center bg-black text-white
                     rounded py-5 flex items-center justify-center gap-3 w-full
-                ">Submit Inquiry <img src="images/arrow.png" alt="arrow" /></button>
+                ">Submit Inquiry <img src="https://douqbxfmnweaqtofllcq.supabase.co/storage/v1/object/public/Images/arrow.png" alt="arrow" /></button>
             </form>
         </section>
     )

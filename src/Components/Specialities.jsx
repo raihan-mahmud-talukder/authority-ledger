@@ -22,7 +22,7 @@ const Speciality = ({ speciality }) => {
             <p className="text-[#44474D]">{speciality.des}</p>
             <div className="flex items-center gap-2 text-[#000000] text-sm font-bold">
                 <span>Learn More</span>
-                <img src="images/bow.png" alt="bow" />
+                <img src="https://douqbxfmnweaqtofllcq.supabase.co/storage/v1/object/public/Images/bow.png" alt="bow" />
             </div>
         </aside>
     )
