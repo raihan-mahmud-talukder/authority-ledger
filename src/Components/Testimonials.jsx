@@ -1,5 +1,12 @@
-import { testimonials } from '../data/testimonial'
+import { useEffect, useState } from 'react'
+// import { testimonials } from '../data/testimonial'
+import { getTestimonial } from '../service/api'
 export const Testimonials = () => {
+    const [testimonial, setTestimonial] = useState([])
+
+    useEffect(() => {
+        getTestimonial().then(data => setTestimonial(data))
+    }, [])
     return (
         <section className="py-16 md:py-32 px-8 bg-[#F2F4F6] flex flex-col gap-16">
             <div className="flex items-center gap-4 ">
@@ -7,7 +14,7 @@ export const Testimonials = () => {
                 <h3 className="font-extrabold text-xl md:text-3xl text-[#191C1E] tracking-tighter">Trusted by Industry Leaders</h3>
             </div>
             <div className='flex flex-col md:flex-row gap-8'>
-                {testimonials.map((item, index) => {
+                {testimonial.map((item, index) => {
                     return <Testimonial testimonial={item} key={index} />
                 })}
             </div>
@@ -26,7 +33,7 @@ const Testimonial = ( {testimonial}) => {
                 <img src={testimonial.rating} alt='star' />
                 <img src={testimonial.rating} alt='star' />
             </div>
-            <p className='font-medium text-lg md:text-2xl text-[#191C1E] h-32'>{ testimonial.quotes}</p>
+            <p className='font-medium text-lg md:text-2xl text-[#191C1E] h-32'>{ testimonial.quote}</p>
             <div className='flex gap-4 items-center pt-2'>
                 <img className='w-12 h-12' src={testimonial.image} alt={testimonial.name} />
                 <div>
