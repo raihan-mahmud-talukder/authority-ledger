@@ -28,7 +28,7 @@ const Testimonial = ( {testimonial}) => {
             </div>
             <p className='font-medium text-lg md:text-2xl text-[#191C1E] h-32'>{ testimonial.quotes}</p>
             <div className='flex gap-4 items-center pt-2'>
-                <img className='w-12 h-12' src={ testimonial.image} />
+                <img className='w-12 h-12' src={testimonial.image} alt={testimonial.name} />
                 <div>
                     <h6 className='font-bold text-[#000000]'>{ testimonial.name}</h6>
                     <span className='font-medium text-sm text-[#44474D]'>{ testimonial.position }</span>
